@@ -1,18 +1,119 @@
 <!DOCTYPE html>
 <html><!--hello-->
-    <head>
+    <style>
+        div {
+            float: left;
+        }
+        img {
+            float: left;
+        }
+         .header {
+            padding: 30px;
+            text-align: center;
+            background: white;
+                }
+
+        .header h1 {
+            font-size: 50px;
+                    }
+        ul {
+            list-style-type: disc;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: aliceblue;
+            background-image: url(index.html);
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color:white;
+            text-align: center;
+            text-decoration: double;
+            padding: 20px 16px;
+        }
+        div{
+            display: inline-block;
+        }
+        a:hover {
+            background-color: aqua;
+        }
+        body {
+            background-color: goldenrod;
+        }
+        /* Dropdown Button */
+        .dropbtn {
+              background-color: #04AA6D;
+             color: white;
+             padding: 16px;
+             font-size: 16px;
+             border: none;
+                }
+
+/* The container <div> - needed to position the dropdown content */
+        .dropdown {
+             position: relative;
+            display: inline-block;
+            }
+
+/* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+                }
+
+/* Links inside the dropdown */
+        .dropdown-content a {
+             color: black;
+             padding: 12px 16px;
+             text-decoration: none;
+             display: block;
+                            }
+
+/* Change color of dropdown links on hover */
+            .dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+            .dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+            .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    </style>
+    <div class="header">
         <title style="color:aqua;">LQHung's webpage</title>
         
-    </head>
+    </div>
+
     <body>
-        <ul style="color: darkslateblue;font-size: xx-large; text-align: center;">orders</ul>
-        <li style="font-size:x-large;">bob bojumen - 1:00</li>
-        <li>james jacob - 7:00</li>
-        <li>bo bo - 19:00</li>
-        <blockquote>yes</blockquote>
-        <ol style="font-size: xx-large; text-align: center;">payment</ol>
-        <li>1 coffe- 5 dollers</li>
-        <li>2 coffe - 9 dollers</li>
-        <li>3 coffe - 13 dollers</li>
+        <h1>Hello moi nguoi minh la Hung</h1>
+        <ul style="color: darkslateblue;font-size: xx-large; text-align: center;">Thong tin ve minh</ul>
+        <li style="font-size:x-large;"><a href="https://www.roblox.com/users/1024413682/profile" target="_blank">roblox</a></li>
+        <li style="font-size:x-large;"><a href="https://www.youtube.com/channel/UCKfE0gaeM8FcON5GMdSbp2w" target="_blank">youtube</a></li>
+        <li style="font-size:x-large;"><a href="https://www.youtube.com/watch?v=xpTGbCExBaM">daily dose of internet</a></li>
+        <li class="dropdown">
+            <a class="dropbtn">video</a>
+            <div class=""dropdown-content>
+                <a href="youtube.com">1</a>
+                <a href="youtube.com">2</a>
+                <a href="youtube.com">3</a>
+            </div>
+            <div class="p img">
+                <p><img src="download (2).jpg">
+                    game amongus la game hay nhat the gioi, no co hon 1000000000 nguoi choi
+                    amongus
+                    game hay nhat 2018
+
+                </p>
+            </div>
+            <img src="#">
+
+
+        </li>
     </body>
 </html>
